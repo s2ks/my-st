@@ -1,6 +1,8 @@
 .*
 !.gitignore
 *.orig
+*.o
 *.rej
 /config.h
 /patch
+/st
