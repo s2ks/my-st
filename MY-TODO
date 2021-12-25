@@ -1,6 +1,10 @@
-merge all applied patches into one patch for easy patching in the future
-
 safe pasting
 	https://briantracy.xyz/writing/copy-paste-shell.html
 	https://unix.stackexchange.com/questions/309786/disable-default-copypaste-behaviour-in-bash/309798#309798
 	https://security.stackexchange.com/questions/39118/how-can-i-protect-myself-from-this-kind-of-clipboard-abuse
+
+Use a placeholder character for characters that fail to display
+
+Implement mouse scrolling
+
+Don't cut text on window resize
