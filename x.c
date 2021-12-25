@@ -1917,7 +1917,7 @@ run(void)
 			if (XPending(xw.dpy))
 				timeout = 0;  /* existing events might not set xfd */
 		} _CATCH {
-			fprintf(stderr, "%s: ATTEMPTING TO RECOVER FROM AN X SERVER ERROR...\n",
+			fprintf(stderr, "%s: TRYING TO CONTINUE...\n",
 					termname);
 		} _TRYEND;
 
@@ -1946,7 +1946,7 @@ run(void)
 					(handler[ev.type])(&ev);
 			}
 		} _CATCH {
-			fprintf(stderr, "%s: ATTEMPTING TO RECOVER FROM AN X SERVER ERROR...\n",
+			fprintf(stderr, "%s: TRYING TO CONTINUE...\n",
 					termname);
 		} _TRYEND;
 
